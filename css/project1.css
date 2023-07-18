@@ -557,18 +557,20 @@ a {
     display: flex;
 }
 .footer .social-link {
-    width: 28px;
-    height: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 28px;
+    height: 28px;
     border-radius: 3px;
+    background-color: #f9f9f9;
 }
-.footer .social-link {
-    margin-right: 8px;
+.footer .social  .social-link {
+    margin-right: 16px;
 }
 .footer .social-link:hover {
-    background-color: #000000;
+    /* background-color: #000000; */
+    opacity: 0.7;
 }
 .footer .row-bottom {
     display: flex;
