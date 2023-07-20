@@ -3,6 +3,10 @@
 }
 html {
     font-size: 62.5%;
+   
+}
+html,body{
+    scroll-behavior: smooth;
 }
 :root {
     --primary-color: #0f1b4c;
@@ -54,6 +58,8 @@ a {
     position: relative;
     display: flex;
     flex-direction: column;
+    /* height: calc(100vh - 90px); */
+    justify-content: center;
 }
 
 .navbar {
@@ -94,10 +100,10 @@ a {
     border-radius: 8px;
 }
 
-.hero {
+/* .hero {
     margin-top: 130px;
     display: flex;
-}
+} */
 .hero .sub-title {
     font-size: 1.8rem;
     font-weight: 500;
@@ -133,7 +139,7 @@ a {
     height: 612.1165771484375px;
 
     position: absolute;
-    right: calc((100vw - 1110px) / 2 - 100px);
+    right: calc((100vw - 1110px)/2 - 100px);
     bottom: 0;
 }
 /* Clients */

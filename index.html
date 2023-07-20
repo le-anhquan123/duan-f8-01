@@ -5,34 +5,52 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Project 1 F8</title>
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <!--  -->
         <link rel="stylesheet" href="./css/reset.css" />
         <link rel="stylesheet" href="./Font/stylesheet.css" />
         <link rel="stylesheet" href="./css/project1.css" />
     </head>
     <body>
-        <main style="height: 4000px">
-
-            <header class="fixed-header">
-                <div class="content">
-                    <div class="navbar">
-                        <!-- Logo -->
-                        <img src="./img/Logo.svg" alt="Besniks" />
-                        <!-- Navigation -->
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Features</a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">Resources</a></li>
-                            <li><a href="">Contact</a></li>
-                        </ul>
-                        <!-- action -->
-                        <div class="actions">
-                            <a href="" class="actions-link">Sign In</a>
-                            <a href="" class="btn actions-btn">Sign Up</a>
+        <header class="fixed-header">
+                        <div class="content">
+                            <div class="navbar">
+                                <!-- Logo -->
+                                <img src="./img/Logo.svg" alt="Besniks" />
+                                <!-- Navigation -->
+                                <ul>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#features">Features</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#resources">Resources</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                                <!-- action -->
+                                <div class="actions">
+                                    <a href="" class="actions-link">Sign In</a>
+                                    <a href="" class="btn actions-btn">Sign Up</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </header>
+        </header>
+        <main id="home" style="height: 5000px">
             <!-- Hero -->
 
             <div class="hero-wrap">
@@ -148,17 +166,15 @@
                 </div>
             </div>
 
-            <div class="featured">
+            <div id="features" class="featured">
                 <div class="content">
                     <header>
                         <h2 class="sub-title">Featured Properties</h2>
                         <div class="row">
-                            <a href="">
-
-                                c">
-                            </a><p class="des
-                                Everything you need to know when you're looking
-                            </p>
+                           <p class="desc"> Everything you need to know when you're looking</p>
+                               
+                            
+                              
                             <a href="" class="link">
                                 <span>View All Properties</span>
                                 <img
@@ -494,8 +510,9 @@
                     </div>
                 </div>
             </div>
+        </main>
 
-            <footer class="footer">
+        <footer class="footer">
                 <div class="content">
                     <div class="row row-top">
                         <!-- Product column -->
@@ -579,6 +596,7 @@
                     </div>
                 </div>
             </footer>
-        </main>
+
+        
     </body>
 </html>
